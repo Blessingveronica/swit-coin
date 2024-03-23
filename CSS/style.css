@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+body{
+    background:linear-gradient(to right,rgb(231, 136, 136),#f1425f);
+}
+
+:root {
+    --primary-color: rgb(26, 17, 59);
+    --text-color: white;
+    --secondary-color: rgb(18, 8, 161);
+}
+
+
+header{
+    background-color: var(--primary-color);
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+} 
+.navbar a{
+color: var(--text-color);
+font-size: 18px;
+font-family:sans-serif ;
+text-decoration: none;
+margin-left: 10px;
+transition: 1s;
+}
+header h1{
+    color: var(--text-color);
+    font-family: cursive;
+}
+.hero-section{
+    height: 80vh;
+    background: linear-gradient(to right, var(--secondary-color),var(--primary-color));
+}
+.button{
+    padding: 10px 25px;
+    background-color: var(--secondary-color);
+     /* border-radius: 10px; */
+}
+.navbar a:hover{
+    color: rgb(91, 175, 223);
+}
+.crypto{
+    height: 200px;
+}
+
+.hero{
+    background-image: url(../happy-dog.gif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} 
+.hero h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(3, 3, 65) ;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+
+}
+.hero p{
+    text-transform: capitalize;
+    color:white;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.hero button{
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background: linear-gradient(150deg,blue 5%,rgb(228, 253, 2) 95%);
+    border: none;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+
+.btn{
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: plum;
+    border: none;
+   margin-left: 50px;
+   background-color: deeppink;
+   text-transform: capitalize;
+}
+
+
